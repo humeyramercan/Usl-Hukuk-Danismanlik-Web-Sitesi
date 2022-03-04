@@ -1,0 +1,31 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewBag.Title = "KullaniciPaneliBlogGuncelleme";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@using (Html.BeginForm("KullaniciPaneliBlogGuncelleme", "Blog", FormMethod.Post, new { @class = " py-3 " }))
+{
+    @Html.TextBoxFor(x => x.BlogID, new { style = "display: none;" })
+    <div class="form-group col-12">
+        @Html.Label("Başlık")
+        @Html.TextBoxFor(x => x.Baslik, new { @class = "form-control" })
+
+    </div>
+
+    <div class="form-group col-12">
+        @Html.Label("Yazar")
+        @Html.TextBoxFor(x => x.Yazar, new { @class = "form-control" })
+
+    </div>
+
+    <div class="form-group col-12">
+        @Html.Label("İçerik")
+        @Html.TextAreaFor(x => x.İcerik, 10, 40, new { @class = "form-control", id = "summernote" })
+
+    </div>
+    <div class="col-8">
+        <button class="ekle-button px-5 py-2">Güncelle</button>
+    </div>
+
+
+}

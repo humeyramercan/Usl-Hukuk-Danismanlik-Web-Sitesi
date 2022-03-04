@@ -1,0 +1,112 @@
+﻿@using EntityLayer.Concrete
+@model List<AreasOfExpertise>
+    @*@{ 
+        int sayac = 0;
+    }*@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .bg {
+        background-image: linear-gradient(to left bottom, rgba(202, 199, 198, 0.815), rgba(201, 201, 201, 0.5)), url(/uslhukuk/images/bg5.2.jpg);
+    }
+</style>
+    <div class="arkaplan uzmanlik-alanlarimiz-arkaplan-foto bg uzmanlik-body bd-bt" style="min-height:100vh">
+        @foreach (var item in Model)
+        {
+            
+        <div class="row mb-150 mt-2" data-aos="fade-right" data-aos-duration="1100">
+
+            <div class="col-sm-5 my-auto mx-auto">
+                <img src="@item.Resim" class="ekibimiz-foto d-block mx-auto">
+            </div>
+            <div class="col-sm-6 text-center my-auto  ">
+                <h3 class=" mt-4">@item.UzmanlikAlaniBaslik</h3>
+                <p class="text-justify ">
+                   @Html.Raw(item.İcerik)
+                </p>
+            </div>
+         
+        </div>
+            }
+           
+        @*<div class="row mb-150" data-aos="fade-right" data-aos-duration="1100">
+            <div class="col-sm-6 text-center my-auto mx-auto">
+                <h3>@item.UzmanlikAlaniBaslik</h3>
+                <p class="text-justify ekibimiz-yazi" style="text-align:justify !important;">
+                    @Html.Raw(item.İcerik)
+                </p>
+            </div>
+            <div class="col-sm-5  my-auto mx-auto">
+                <img src="@item.Resim" class="ekibimiz-foto d-block  mx-auto ">
+            </div>
+        </div>
+            }
+        }*@
+        @*<div class="row mb-150 mt-2" data-aos="fade-right" data-aos-duration="1100">
+            <div class="col-sm-5  my-auto mx-auto">
+                <img src="~/uslhukuk/images/aile-ve-miras-hukuku.jpg" class="ekibimiz-foto d-block mx-auto">
+            </div>
+            <div class="col-sm-6 text-center my-auto  ">
+                <h3 class=" mt-4">Aile Ve Miras Hukuku</h3>
+                <p class="text-justify ekibimiz-yazi">
+                    Büromuz Medeni Kanun ve ilgili mevzuatlardaki düzenlemeler ışığında; evlilik
+                    öncesi veya sırasında mal rejimi sözleşmelerinin düzenlenmesi için müvekkillerine
+                    danışmanlık hizmeti sunmasının yanı sıra, anlaşmalı veya çekişmeli boşanma davaları, nafaka, soybağının kurulması, velayet ve vesayet ile Aile Mahkemeleri’nin görev alanına giren diğer uyuşmazlıklarda da mahkemeler nezdinde müvekkillerini temsilen dava süreçlerini yürütmektedir.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row mb-150" data-aos="fade-right" id="is-hukuku" data-aos-duration="1100">
+            <div class="col-sm-6 text-center my-auto mx-auto">
+                <h3>İş Hukuku</h3>
+                <p class="text-justify ekibimiz-yazi">
+                    Gerek işveren gerek işçi nezdinde doğan alacak davaları, fesih davaları, işe iade davaları gibi iş sözleşmelerinden doğan her türlü uyuşmazlıkla ilgili danışmanlık ve temsil hizmeti vermekteyiz.
+                </p>
+            </div>
+            <div class="col-sm-5  my-auto mx-auto">
+                <img src="~/uslhukuk/images/is-hukuku.jpg" class="ekibimiz-foto d-block  mx-auto ">
+            </div>
+        </div>
+
+        <div class="row mb-150 mt-2" data-aos="fade-right" id="ceza-hukuku" data-aos-duration="1100">
+            <div class="col-sm-5 my-auto mx-auto ">
+                <img src="~/uslhukuk/images/ceza-hukuku.png" class="ekibimiz-foto d-block mx-auto">
+            </div>
+            <div class="col-sm-6 text-center my-auto  ">
+                <h3 class=" mt-4">Ceza Hukuku - Ceza Yargılaması Hukuku</h3>
+                <p class="text-justify ekibimiz-yazi">
+                    Ceza hukukunda temel prensipler, suçta ve cezada kanunilik ve şahsi kusur sorumluluğundan oluşur. Bir fiilin suç olup olmadığı ve cezasının ne olduğu maddi ceza hukukunu ilgilendirir.
+
+                    Ceza yargılamasında; iddia eden, iddia ve suçlama, suçlanan ve yargılanan sıfatları gündeme gelir, fakat henüz mahkumiyet ve mahkum, yani kesin hüküm ve hükümlü yoktur. Bu durum temel hukuk doktrinlerinden olan suçsuzluk karinesi gereği ortaya çıkmıştır. Suçsuzluk karinesi, bir suçtan dolayı kovuşturulan kişinin, suçluluğu mahkeme kararıyla sabit olmadıkça suçlu sayılmamasını ifade eder.
+
+                    Şen Hukuk Bürosu′nun; kuruluşundan bu tarafa faaliyet gösterdiği ceza hukuku ve ceza yargılaması hukuku, uzmanlık alanlarının başında gelmektedir. Alanında tecrübeye sahip avukatlarımız soruşturmanın başından kovuşturmanın sonuna kadar, sürecin her aşamasını büyük bir titizlik ve itina ile takip etmekte ve müvekkillerini temsil etmektedir. Büromuz; ceza hukukunun her alanında çalışmalarını etkin bir biçimde yürütmekte olup, çalışma anlayışı, temsil ettiği kişilere yaklaşımı ve tecrübesi ile yıllardır adından söz ettirmektedir.
+
+                    Bu çerçevede Büromuz; Ceza ve Ceza Usul Hukuku Departmanımız akademisyenlerin de içinde bulunduğu hukukçu kadrosu ile hukukun evrensel ilke ve esasları ışığında, ceza hukuku ve ceza yargılaması hukuku alanında uzmanlaşarak, soruşturma ve kovuşturma işlemleri ile şikayet ve davalarda etkin ve hızlı çözümler sunmaktadır. Ekibimizin bu alanda yıllara dayanan tecrübesi, mevzuata ve mahkeme kararlarına ilişkin geniş bilgiyi uygulamada karşılaştığı yüzlerce hukuki sorunu başarıyla ele alması, bilgi birikimini profesyonel olarak uygularken insan hak ve özgürlüklerine verdiği değer, temsil ettiği kişilere titiz, sonuç odaklı, başarılı, hızlı ve etkin bir hizmet sunulmasını sağlamaktadır.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row mb-150" data-aos="fade-right" data-aos-duration="1100">
+            <div class="col-sm-6 text-center my-auto mx-auto">
+                <h3>Vergi Hukuku</h3>
+                <p class="text-justify ekibimiz-yazi">
+
+                    Gerçek ve tüzel kişilerin maruz kaldığı Vergi Hukuku konusuna giren sorunların güncellenen mevzuat ışığında; dava öncesi uzlaşma sürecinin yürütülmesi, dava yoluna başvurulması gereken hallerde dava takibinin sağlanması, vergi cezalarının iptali işlemleri ve düzeltme talepleri hakkında, uzman ekibimizle hukuk danışmanlığı ve dava hizmeti sunmaktayız.
+                    Ofisimizde; vergilendirmeye ve Vergi Hukukuna ilişkin iş ve işlemlerde alanında uzman, vergi denetiminde ve incelemesinde yetkinlik sahibi ve sahada görev almış çözüm ortaklarımızla aşağıda yer alan hizmetleri sunmaktayız:
+                    - Bir vergi incelemesine tabi tutulduğunuz durumlarda; ticari iş ve işlemlerinize ilişkin herhangi bir vergi/ceza işlemi ile karşı karşıya kalmamak adına başta 213 sayılı Vergi Usul Kanunu olmak üzere vergi kanunları kapsamında sahip olduğunuz haklara ve yükümlülüklerinize ilişkin teknik bilgi gerektiren (istisna, muafiyet, teşvik ve sair) hususlarda bilmeniz gerekenler hakkında inceleme öncesi vergi danışmanlığı hizmeti,
+                    - 193 sayılı Gelir Vergisi Kanunu ve 5520 sayılı Kurumlar Vergisi Kanunu hükümleri kapsamında tam tasdik ve inceleme öncesi vergi denetimi kapsamında teşebbüsünüzün ticari faaliyetiniz bünyesinde tutmak zorunda olduğunuz yasal defterlere ilişkin usullere, düzenlenecek mali tablolara ve muhasebe işlemleri ile kayıt ve belge düzenine ilişkin vergi danışmanlığı hizmeti,
+                    - Gelir Vergisi, Kurumlar Vergisi, Katma Değer Vergisi ve diğer vergi kanunları uyarınca iade sürecine ve mekanizmasına ilişkin yasal düzenlemeler gereği yükümlülüklerinize ve haklarınıza ilişkin teknik ve spesifik bilgi gerektiren hususlarda vergi iadesi danışmanlığı hizmeti,
+                    - Vergi incelemesine tabi tutulduğunuz durumlarda; inceleme dönemine ve gerekçesine ilişkin olarak vergilendirme sürecini ilgilendiren yasal mevzuat (Kanun, Yönetmelik, Tebliğ, Genelge, Özelge) ve Usul Hukuku ile ilgili iş ve işlemlerde tarafınıza yönetilen hususlara ve inceleme sonrası duruma istinaden izlenmesi gereken yollara ilişkin (Tarhiyat Öncesi Uzlaşma, Tarhiyat Sonrası Uzlaşma, Cezada İndirim) vergi incelemesi danışmanlığı hizmeti,
+                    - Vergilendirmeye ilişkin hakkınızda tesis edilen idari iş ve işlemlere ilişkin olarak dava sürecinde; İdari Yargılama Usulü Kanunu, Vergi Usul Kanunu ve diğer vergi kanunları ve düzenlemeleri uyarınca dava sürecinin her aşamasında yükümlülüklerinize ve haklarınıza ilişkin olarak uyuşmazlık konusu hususla alakalı vergi davası danışmanlığı hizmeti,
+                    - Vergi kaçakçılığı dosyalarının takibi.
+                </p>
+            </div>
+            <div class="col-sm-5  my-auto mx-auto">
+                <img src="~/uslhukuk/images/vergi-hukuku.png" class="ekibimiz-foto d-block  mx-auto ">
+            </div>
+        </div>*@
+    </div>

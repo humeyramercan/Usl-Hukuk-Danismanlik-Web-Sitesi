@@ -1,0 +1,25 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <div class="row  giris-arkaplan bd-bt style=" min-height:100vh"">
+        <div class="col-md-6 my-auto " data-aos="fade-right" data-aos-duration="1100">
+
+            <img src="~/uslhukuk/images/usl-linear.png" class="usl-logo-giris d-block mx-auto logo"
+                 alt="logo">
+
+        </div>
+        <div class="col-md-6 my-auto giris-yazilar text-justify  " data-aos="fade-right" data-aos-duration="1100">
+            <h3 class="giris-yazi-baslik py-2 text-center">USL HUKUK & DANIŞMANLIK</h3>
+            @foreach(var item in Model) {
+            <p class="giris-yazi-icerik">
+               @Html.Raw(item.İcerik)
+            </p>
+    }
+        </div>
+
+
+    </div>
+

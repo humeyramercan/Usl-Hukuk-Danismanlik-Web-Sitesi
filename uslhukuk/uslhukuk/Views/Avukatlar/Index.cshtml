@@ -1,0 +1,28 @@
+﻿@using EntityLayer.Concrete
+@model List<Lawyer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<table class="table">
+    <!--direkt table classını verirrsek tablomuz daha güzel bir hal alır-->
+    <thead>
+        <tr>
+            <th>Ad Soyad</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UnvanAdSoyad </td> 
+              
+                <td><a class="duzenle-button px-3 py-2" href="/Avukatlar/AvukatGuncelle/@item.AvukatID">Düzenle</a></td>
+                <td><a class="kaldir-button px-3 py-2 deleteButton" href="/Avukatlar/AvukatKaldir/@item.AvukatID">Kaldır</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="ekle-button px-3 py-2" href="/Avukatlar/AvukatEkle">Yeni Avukat Ekle</a>

@@ -1,0 +1,31 @@
+﻿@model EntityLayer.Concrete.Lawyer
+@{
+    ViewBag.Title = "AvukatEkle";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+@using (Html.BeginForm("AvukatEkle", "Avukatlar", FormMethod.Post, new { enctype = "multipart/form-data", @class = "pt-3" }))
+{
+
+    @Html.TextBoxFor(x => x.AvukatID, new { style = "display: none;" })
+    <div class="form-group col-8  ">
+        @Html.Label("Ad Soyad")
+        @Html.TextBoxFor(x => x.UnvanAdSoyad, new { @class = "form-control", required = "required" })
+    </div>
+   
+    <div class="form-group col-8 ">
+        @Html.Label("Resim")
+        <br />
+        <input type="file" name="Resim" required />
+    
+    </div>
+    <div class="form-group col-10  ">
+        @Html.Label("Hakkında")
+        @Html.TextAreaFor(x => x.Hakkinda,8,40, new { @class = "form-control", required = "required",id="summernote" })
+    </div>
+    <div class="col-8 ">
+        <button class="ekle-button px-5 py-2">Ekle</button>
+
+    </div>
+}
+

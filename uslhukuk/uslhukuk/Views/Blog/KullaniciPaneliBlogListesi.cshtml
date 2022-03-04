@@ -1,0 +1,32 @@
+﻿@using EntityLayer.Concrete
+@model List<Blog>
+@{
+    ViewBag.Title = "KullaniciPaneliBlogListesi";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<table class="table">
+    <!--direkt table classını verirrsek tablomuz daha güzel bir hal alır-->
+    <thead>
+        <tr>
+            <th>Başlık</th>
+            <th>Yazar</th>
+            <th>Tarih</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Baslik</td>
+                <td>@item.Yazar</td>
+                <td>@(((DateTime)item.BlogTarihi).ToString("dd-MMM-yyyy")) </td>
+                <td><a class="duzenle-button px-3 py-2" href="/Blog/KullaniciPaneliBlogGuncelleme/@item.BlogID">Düzenle</a></td>
+                <td><a class="kaldir-button px-3 py-2 deleteButton" href="/Blog/KullaniciPaneliBlogKaldirma/@item.BlogID">Kaldır</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="ekle-button px-3 py-2" href="/Blog/KullaniciPaneliYeniBlogEkleme">Yeni Blog Ekle</a>
+

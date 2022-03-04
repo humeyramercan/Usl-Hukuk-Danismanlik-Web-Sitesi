@@ -1,0 +1,28 @@
+﻿@model EntityLayer.Concrete.AreasOfExpertise
+@{
+    ViewBag.Title = "UzmanlikAlaniGuncelle";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@using (Html.BeginForm("UzmanlikAlaniGuncelle", "UzmanlikAlanlarimiz", FormMethod.Post, new { enctype = "multipart/form-data", @class = "pt-3" }))
+{
+
+    @Html.TextBoxFor(x => x.UzmanlikAlaniID, new { style = "display: none;" })
+    <div class="form-group col-12  ">
+        @Html.Label("Uzmanlık Alanı Adı")
+        @Html.TextBoxFor(x => x.UzmanlikAlaniBaslik, new { @class = "form-control", required = "required" })
+    </div>
+    <div class="form-group col-12 ">
+        @Html.Label("Resim")
+        <br />
+        <input type="file" name="Resim" /> <br /><br />
+        <img src="@Model.Resim" class="d-inline-block" style="height:auto;width:60%" />
+    </div>
+    <div class="form-group col-12  ">
+        @Html.Label("İçerik")
+        @Html.TextAreaFor(x => x.İcerik, 8, 40, new { @class = "form-control", required = "required",id="summernote" })
+    </div>
+    <div class="col-8">
+        <button class="ekle-button px-5 py-2">Güncelle</button>
+    </div>
+
+}

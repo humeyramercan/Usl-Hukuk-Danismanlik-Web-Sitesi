@@ -1,0 +1,27 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewBag.Title = "BlogDetay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .blog-arkaplan22 {
+        background-image: linear-gradient(to left bottom, rgba(181, 159, 130, 0.7), rgba(224, 172, 103, 0.9));
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        padding-top: 130px;
+        background-position: center;
+    }
+</style>
+    <div class="blog-arkaplan22 bd-bt" style="min-height:100vh">
+        <div class="row blog mx-4 py-3 mb-5">
+            <div class="blog-baslik text-center w-100">
+                <h4>@Model.Baslik</h4>
+                <h2><i class="far fa-calendar-alt blog-icon"> @(((DateTime)Model.BlogTarihi).ToString("dd-MMM-yyyy")) </i> &nbsp; <i class="fas fa-user blog-icon"> @Model.Yazar</i> </h2>
+            </div>
+            <div class="blog-icerik w-100 px-5 py-4 text-justify">
+                @Html.Raw(Model.İcerik)
+            </div>
+
+        </div>
+    </div>

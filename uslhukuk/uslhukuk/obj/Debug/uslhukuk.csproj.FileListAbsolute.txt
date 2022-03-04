@@ -1,0 +1,194 @@
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\uslhukuk.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\uslhukuk.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\uslhukuk.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\csc.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\csc.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\csc.rsp
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\csi.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\csi.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\csi.rsp
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.AppContext.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Console.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.IO.Compression.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Net.Http.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.ValueTuple.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\vbc.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\vbc.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\vbc.rsp
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\VBCSCompiler.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\Antlr3.Runtime.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\Newtonsoft.Json.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Helpers.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Mvc.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Optimization.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Razor.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.WebPages.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.WebPages.Razor.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\WebGrease.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Helpers.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Mvc.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Optimization.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.Razor.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.WebPages.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\System.Web.WebPages.Razor.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\Newtonsoft.Json.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\Antlr3.Runtime.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\obj\Debug\uslhukuk.csprojAssemblyReference.cache
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\obj\Debug\uslhukuk.csproj.CoreCompileInputs.cache
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\obj\Debug\uslhukuk.csproj.CopyComplete
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\obj\Debug\uslhukuk.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\obj\Debug\uslhukuk.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\EntityFramework.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\EntityFramework.SqlServer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\EntityFramework.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\EntityFramework.SqlServer.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\BusinessLayer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\DataAccessLayer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\EntityLayer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\BusinessLayer.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\DataAccessLayer.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\DataAccessLayer.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\EntityLayer.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\EntityLayer.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\SimpleCrypto.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\BusinessLayer.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\PagedList.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\PagedList.Mvc.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\PagedList.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk\uslhukuk\bin\PagedList.Mvc.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\uslhukuk.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\uslhukuk.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\uslhukuk.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\csc.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\csc.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\csc.rsp
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\csi.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\csi.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\csi.rsp
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.AppContext.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Console.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.IO.Compression.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Net.Http.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.ValueTuple.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\vbc.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\vbc.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\vbc.rsp
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\VBCSCompiler.exe
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\Antlr3.Runtime.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\BusinessLayer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\DataAccessLayer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\EntityFramework.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\EntityFramework.SqlServer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\EntityLayer.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\Newtonsoft.Json.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\PagedList.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\PagedList.Mvc.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\SimpleCrypto.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Helpers.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Mvc.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Optimization.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Razor.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.WebPages.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.WebPages.Razor.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\WebGrease.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\BusinessLayer.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\BusinessLayer.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\DataAccessLayer.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\DataAccessLayer.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\EntityLayer.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\EntityLayer.dll.config
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\EntityFramework.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\EntityFramework.SqlServer.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\PagedList.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\PagedList.Mvc.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Helpers.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Mvc.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Optimization.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.Razor.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.WebPages.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\System.Web.WebPages.Razor.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\Newtonsoft.Json.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\Antlr3.Runtime.pdb
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\obj\Debug\uslhukuk.csprojAssemblyReference.cache
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\obj\Debug\uslhukuk.csproj.CoreCompileInputs.cache
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\obj\Debug\uslhukuk.csproj.CopyComplete
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\obj\Debug\uslhukuk.dll
+C:\Users\humey\OneDrive\Masaüstü\uslhukuk danismanlik\uslhukuk\uslhukuk\obj\Debug\uslhukuk.pdb

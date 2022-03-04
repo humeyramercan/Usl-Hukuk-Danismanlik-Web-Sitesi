@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <div class="iletisim-arkaplan bd-bt" style="min-height:100vh">
+        <h2 class="text-center p-4">
+            Bizimle İletişime Geçin
+        </h2>
+        <div class="row py-3 ">
+
+            <div class="col-md-6 text-center pt-4 iletisim-bilgileri">
+                <ul class="list-unstyled">
+                    <li>
+                        <b>Adres</b> &nbsp;<i class="fas fa-map-pin iletisim-bilgileri"></i>
+
+                        <p>
+                            Körfez Mah. Berk Sk. Kavşut Apt. B Blok <br />
+                            No: 8 Kat: 3 Daire: 7 41245 <br />
+                            İzmit/Kocaeli
+                        </p>
+                    </li>
+                    <li>
+                        <b>Mail</b> &nbsp;<i class="fas fa-envelope iletisim-bilgileri"></i>
+                        <p>
+                            <a href="mailto:info@uslhukuk.com">info@uslhukuk.com </a>
+                        </p>
+                    </li>
+                    <li>
+                        <b>Telefon</b> &nbsp;<i class="fas fa-phone-alt iletisim-bilgileri"></i>
+                        <p><a href="tel:+90 999 999 9999">+90 262 333 0009</a></p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-5 iletisim-form">
+                <form method="post" asp-controller="Iletisim" asp-action="Index" class="w-100 px-3">
+
+                    <div class="form-group">
+                        <label for="adiniz-txt">Adınız</label>
+                        <input type="tel" class="form-control inputs" name="ad" id="adiniz-txt" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="adiniz-txt">Soyadınız</label>
+                        <input type="tel" class="form-control inputs" name="soyad" id="soyadiniz-txt" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mail-txt">Mail Adresiniz</label>
+                        <input type="email" class="form-control inputs" name="mail" id="mail-txt" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mesajiniz-textarea">Mesajınız</label>
+                        <textarea class="form-control inputs" id="mesajiniz-textarea" required name="mesaj" rows="3"></textarea>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="submit" class="gonder-button py-2 px-5 ">Gönder</button>
+                    </div>
+
+                </form>
+                @if (TempData["basarili1"] != null && TempData["basarili2"] != null)
+                {
+                    <div class="text-center mt-3">
+                        <h6> @TempData["basarili1"] </h6>
+                        <h6> @TempData["basarili2"] </h6>
+                    </div>
+
+                }
+                else if (TempData["basarisiz"] != null)
+                {
+                    <div class="text-center mt-3">
+                        <h6> @TempData["basarisiz"] </h6>
+                    </div>
+                }
+            </div>
+
+        </div>
+
+        <div style="overflow:hidden;padding-bottom:56.25%;position:relative; height:0;" class="clearfix">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1555386.3438984628!2d28.568749027771066!3d40.411864562315294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb457d2899185d%3A0x8bf67429b1f7d8d6!2zVVNMIEh1a3VrIHZlIERhbsSxxZ9tYW5sxLFr!5e0!3m2!1str!2str!4v1642463686034!5m2!1str!2str"
+                    style="border: 0; box-shadow:5px 5px 15px 14px rgb(0, 0, 0, 0.3) ;  left:0;top:0; height:100%;width:100%;position:absolute;padding: 50px;"
+                    allowfullscreen=""
+                    loading="lazy"></iframe>
+
+        </div>
+
+    </div>

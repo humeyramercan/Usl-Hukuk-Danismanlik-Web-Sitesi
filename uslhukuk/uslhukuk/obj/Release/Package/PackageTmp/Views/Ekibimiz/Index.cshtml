@@ -1,0 +1,58 @@
+﻿@using EntityLayer.Concrete
+@model List<Lawyer>
+@*@{
+    
+    int sayac = 0;
+}*@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="arkaplan ekibimiz-arkaplan-foto bd-bt" style="min-height:100vh">
+        @foreach (var item in Model)
+        {
+            
+        <div class="row mb-150 mt-2  " data-aos="fade-right" data-aos-duration="1100">
+
+            <div class="col-sm-4 my-auto mx-auto ">
+                <img src="@item.Resim" class="ekibimiz-foto d-block mx-auto">
+            </div>
+            <div class="col-sm-7 text-center my-auto   ">
+                <h3 class="h3-pt">@item.UnvanAdSoyad</h3>
+                
+                    @Html.Raw(item.Hakkinda)
+                
+
+               
+
+            </div>
+
+        </div>
+            }
+            
+        @*<div class="row mb-150" data-aos="fade-right" data-aos-duration="1100">
+            <div class="col-sm-7 text-center my-auto mx-auto">
+                <h3>@item.UnvanAdSoyad</h3>
+             
+
+                    @Html.Raw(item.Hakkinda)
+                    <br><br>
+                <p class=" text-left">
+                    <a href="mailto:@item.Mail">
+                        <i class="fas fa-envelope ekibimiz-mail"> @item.Mail</i>
+                    </a>
+                </p>
+           
+
+            </div>
+            <div class="col-sm-4 my-auto mx-auto">
+                <img src="@item.Resim" class="ekibimiz-foto d-block mx-auto">
+            </div>
+        </div>
+            }
+        }*@
+    
+
+    </div>
+

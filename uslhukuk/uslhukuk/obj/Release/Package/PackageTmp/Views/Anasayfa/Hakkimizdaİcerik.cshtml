@@ -1,0 +1,27 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+@{
+    ViewBag.Title = "Hakkimizdaİcerik";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<table class="table">
+    <!--direkt table classını verirrsek tablomuz daha güzel bir hal alır-->
+    <thead>
+        <tr>
+            <th>Hakkımızda</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.Raw(item.İcerik)</td>
+         
+                <td><a class="duzenle-button px-3 py-2" href="/Anasayfa/HakkimizdaGuncelle/@item.HakkimizdaID">Düzenle</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,281 @@
+﻿.p-m-0 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(126, 126, 126, 0.9);
+    padding: 0;
+    margin: 0;
+
+}
+.row{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.bd-bt {
+    border: none;
+    border-bottom: 0.1px solid transparent;
+}
+
+/*Navbar*/
+.navbar {
+    background-image: linear-gradient(to left top, rgba(27, 27, 27, 0.5), rgba(168, 167, 167, 0.2));
+
+}
+
+.logo {
+    border-radius: 13%;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 1.1rem !important;
+}
+
+    .nav-link:hover {
+        color: rgb(184, 181, 176) !important;
+        opacity: 0.8;
+        transition: all 0.3s;
+    }
+.word-wrap {
+    word-wrap: break-word;
+}
+
+/*Anasayfa giriş kısmı*/
+
+
+.giris-arkaplan {
+    min-height:100vh;
+   width:  100%;
+    height: 100%;
+    background-image: linear-gradient(to left bottom, rgba(255, 255, 255, 0.5), rgba(192, 192, 192, 0.4)), url(../images/giris-arkaplan.jpg);
+    background-size: cover;
+    background-position: left;
+    padding-top: 180px;
+    padding-bottom:100px ;
+}
+
+.giris-row {
+    margin-top: 150px;
+    height: 60%;
+}
+
+.usl-logo-giris {
+    width: 56%;
+    height: auto;
+}
+
+
+
+
+/*Footer*/
+.border-sol-kenar {
+    border: none;
+    border-left: rgb(56, 56, 56) solid;
+    font-size: 0.8rem;
+}
+
+.border-sag-kenar {
+    border: none;
+    border-right: rgb(56, 56, 56) solid;
+}
+
+
+.footer {
+    background-color: rgb(36, 36, 36);
+    color: gray;
+    font-size: 0.8rem;
+  
+}
+
+.footer a {
+    color: gray;
+}
+
+.iletisim b,
+i {
+    color: rgb(250, 244, 244);
+    font-size: 1rem;
+}
+
+.footer h6 {
+    color: rgb(250, 244, 244);
+}
+
+.border-sol-kenar i {
+    font-size: 3rem;
+}
+
+.border-sol-kenar li:hover i {
+    color: rgb(73, 72, 72);
+    transition: all 0.5s;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    transition: all 0.3s;
+}
+
+
+
+/*EKİBİMİZ*/
+.ekibimiz-foto{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    box-shadow:  4px 6px 4px 5px rgba(0, 0, 0, 0.3);
+}
+.mb-150{
+    margin-bottom: 150px;
+}
+.arkaplan{
+    width:100%;
+    height: auto;
+    background-size:cover;
+    padding-top: 180px;
+   
+}
+.ekibimiz-arkaplan-foto {
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom, rgba(95, 93, 93, 0.7), rgba(109, 109, 109, 0.9)), url(../images/bg10_1800x2500.jpg);
+    background-position: center;
+}
+.uzmanlik-alanlarimiz-arkaplan-foto {
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom, rgba(202, 199, 198, 0.815), rgba(201, 201, 201, 0.5)), url(../images/bg5.2.jpg);
+    background-position: 95% 50%;
+}
+
+.ekibimiz-mail{
+    font-size: large;
+    transition: all 0.3s;
+    color:rgb(0, 0, 0)
+}
+.ekibimiz-mail:hover{
+    color: rgb(161, 161, 161);
+}
+
+
+.w-102{
+    width: 102%;
+}
+.mt-150{
+    margin-top: 150px;
+}
+.ekibimiz-yazi{
+    color:rgb(0, 0, 0)
+}
+
+.uzmanlik-body {
+    color: rgb(0, 0, 0);
+}
+
+/*İLETİŞİM*/
+.iletisim-arkaplan {
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom, rgba(119, 119, 119, 0.7), rgba(109, 109, 109, 0.9)), url(../images/iletisimbg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-top: 130px;
+}
+.iletisim-form  .pb-4 {
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+    padding-top:2rem;
+    border: none;
+    border-bottom: 1px black solid;
+    outline: none
+}
+.iletisim-form .pb-4::placeholder{
+    color: black;
+}
+.gonder-button{
+    background-color: rgb(143, 143, 143);
+    border: none;
+    border-radius: 7px;
+  box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+.gonder-button:hover{
+    background-color:rgb(207, 206, 206) ;
+}
+.iletisim-bilgileri{
+    font-size: 1.2rem;
+    color: black;
+    
+}
+.iletisim-bilgileri a{
+    color: black;
+    transition: all 0.3s;
+}
+.iletisim-bilgileri a:hover{
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+/*STAJ*/
+.staj-arkaplan {
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom, rgba(119, 119, 119, 0.7), rgba(109, 109, 109, 0.9)), url(../images/stajbg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-top: 130px;
+}
+
+.staj-form  .inputs{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+.iletisim-form  .inputs{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+/*BLOG*/
+
+.blog-arkaplan {
+    background-image: linear-gradient(to left bottom, rgba(95, 93, 93, 0.7), rgba(109, 109, 109, 0.9)), url(../images/blogbg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-top: 130px;
+    background-position: center;
+}
+
+.card{
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to left bottom, rgba(201, 201, 201, 0.3), rgba(214, 214, 214, 0.3));
+}
+.card-link{
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.card-link:hover{
+    color: rgb(184, 184, 184);
+}
+.blog-icon{
+    color: rgb(90, 83, 83);
+}
+.blog{
+    background-color: transparent;
+    box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to left bottom, rgba(255, 253, 253, 0.2), rgba(255, 255, 255, 0.267));
+
+}
+

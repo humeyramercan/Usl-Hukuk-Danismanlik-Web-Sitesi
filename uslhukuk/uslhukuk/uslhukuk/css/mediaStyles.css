@@ -1,0 +1,52 @@
+﻿.giris-yazilar {
+    padding-right: 80px;
+}
+
+@media (max-width:768px) {
+    .giris-yazilar {
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+
+    .giris-yazi-baslik {
+        padding-top: 30px;
+    }
+}
+
+.giris-yazi-icerik {
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+}
+@media (max-width:768px) {
+    .border-sol-kenar {
+        border: none;
+        border-top: rgb(56, 56, 56) solid;
+        padding-top: 1rem;
+    }
+
+    .border-sag-kenar {
+        border: none;
+        border-bottom: rgb(56, 56, 56) solid;
+    }
+
+    .footer-hizmetlerimiz {
+        padding-top: 1rem;
+    }
+}
+@media (max-width:578px) {
+    .h3-pt{
+        padding-top:20px;
+    }
+}
+@media (max-width:576px) {
+    .ekibimiz-yazi {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mb-150 {
+        margin-bottom: 20px;
+    }
+}

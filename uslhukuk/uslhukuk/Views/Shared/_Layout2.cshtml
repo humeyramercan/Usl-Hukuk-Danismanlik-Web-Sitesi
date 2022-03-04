@@ -1,0 +1,129 @@
+﻿
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Usl Yönetim Paneli</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/uslhukuk/css/sytle.css">
+    <link rel="stylesheet" href="~/sidebar-01/css/style.css">
+    <link rel="shortcut icon" href="~/uslhukuk/images/logo.ico" />
+</head>
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            <div class="p-4 pt-5">
+
+                <ul class="list-unstyled components mb-5">
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Bloglar</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="/Blog/KullaniciPaneliBlogListesi">Yayında Olan Bloglar</a>
+                            </li>
+                            <li>
+                                <a href="/Blog/KullaniciPaneliKaldirilanBloglarListesi">Kaldırılan Bloglar</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/Avukatlar/Index">Avukatlar</a>
+                    </li>
+
+                    <li>
+                        <a href="/UzmanlikAlanlarimiz/UzmanlikAlanlarimizListe">Uzmanlık Alanlarımız</a>
+                    </li>
+                    <li>
+                        <a href="/Anasayfa/Hakkimizdaİcerik">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="/KullaniciAdiSifre/Index">Kullanıcı Adı ve Şifre</a>
+                    </li>
+                    <li>
+                        <a href="/Anasayfa/Index">Siteye Git</a>
+                    </li>
+                    <li>
+                        <a href="/Giris/Cikis"> Çıkış</a>
+                    </li>
+
+
+                </ul>
+
+
+
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                        <i class="fa fa-bars"></i>
+
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                </div>
+            </nav>
+
+            @RenderBody()
+
+        </div>
+    </div>
+    <script src="~/sidebar-01/js/jquery.min.js"></script>
+    <script src="~/sidebar-01/js/popper.js"></script>
+    <script src="~/sidebar-01/js/bootstrap.min.js"></script>
+    <script src="~/sidebar-01/js/main.js"></script>
+
+    <script>
+        var deletButton = document.querySelector(".deleteButton");
+        deletButton.addEventListener('click', function (e) {
+            if (!confirm("Emin misiniz?")) {
+                e.preventDefault();
+            }
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+
+    <script>
+        $('#summernote').summernote({
+            placeholder: 'Hello stand alone ui',
+            tabsize: 2,
+            height: 200,
+            toolbar: [
+                ['style', ['style']],
+                ['font', ['bold', 'underline', 'clear']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['table', ['table']],
+                ['insert', ['link', 'picture', 'video']],
+                ['view', ['fullscreen', 'codeview', 'help']]
+            ]
+        });
+    </script>
+</body>
+</html>
+  
+
+
+
+

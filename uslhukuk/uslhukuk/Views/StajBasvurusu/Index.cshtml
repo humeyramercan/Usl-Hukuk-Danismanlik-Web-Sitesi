@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="staj-arkaplan bd-bt" style="min-height:100vh">
+    <div class="row">
+        <div class="col-8 py-5 staj-form mx-auto">
+            <form method="post" enctype="multipart/form-data" asp-controller="StajBasvurusu" asp-action="Index">
+
+                <h3 class="text-center pb-5">Staj Başvuru Formu</h3>
+                <div class="form-group">
+                    <label for="adiniz-txt">Adınız</label>
+                    <input type="text" class="form-control inputs" id="adiniz-txt" name="ad" required>
+                </div>
+                <div class="form-group">
+                    <label for="adiniz-txt">Soyadınız</label>
+                    <input type="text" class="form-control inputs" id="soyadiniz-txt" name="soyad" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mail-txt">Mail Adresiniz</label>
+                    <input type="email" class="form-control inputs" id="mail-txt" name="mail" required>
+                </div>
+                @*<div class="form-group">
+                <label for="tel-txt">Telefon Numaranız</label>
+                <input type="tel" class="form-control inputs" id="tel-txt" name="telefon">
+            </div>*@
+                <div class="form-group py-3">
+                    <label for="ozgecmis-txt" class="ozgecmis-label">Özgeçmişiniz &nbsp; &nbsp; &nbsp; </label>
+                    <input type="file" id="adiniz-txt" name="ozgecmis" required>
+                </div>
+                <div class="form-group">
+                    <label for="eklenecekler-textarea">Eklemek İstedikleriniz</label>
+                    <textarea class="form-control inputs" id="eklenecekler-textarea" rows="3" name="eklemekIstedikleriniz"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="gonder-button px-5 py-2">Gönder</button>
+                </div>
+
+            </form>
+            @if (TempData["basarili"] != null)
+            {
+                <div class="text-center mt-3">
+                    <h6> @TempData["basarili"] </h6>
+                </div>
+
+            }
+            else if (TempData["basarisiz-staj"] != null)
+            {
+                <div class="text-center mt-3">
+                    <h6> @TempData["basarisiz-staj"] </h6>
+                </div>
+            }
+        </div>
+        </div>
+     
+</div>

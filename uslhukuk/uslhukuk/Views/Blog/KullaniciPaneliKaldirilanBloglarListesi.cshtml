@@ -1,0 +1,54 @@
+﻿
+@using EntityLayer.Concrete
+@model List<Blog>
+@{
+    ViewBag.Title = "KullaniciPaneliKaldirilanBloglarListesi";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<style>
+
+
+    .aktif-button {
+        text-decoration: none;
+        border-radius: 10%;
+        box-shadow: 2px 2px 2px 3px rgb(105, 151, 31);
+        color: white;
+        background-color: rgb(89, 175, 56);
+        transition: all 0.3s;
+    }
+
+        .aktif-button:hover {
+            text-decoration: none;
+            color: rgb(31, 30, 30);
+            background-color: rgb(148, 255, 115);
+            box-shadow: 2px 2px 2px 3px rgb(128, 241, 93);
+        }
+</style>
+<table class="table">
+    <!--direkt table classını verirrsek tablomuz daha güzel bir hal alır-->
+    <thead>
+        <tr>
+            <th>Başlık</th>
+            <th>Yazar</th>
+            <th>Tarih</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Baslik</td>
+                <td>@item.Yazar</td>
+                <td>@(((DateTime)item.BlogTarihi).ToString("dd-MMM-yyyy")) </td>
+                <td><a class="duzenle-button px-3 py-2" href="/Blog/KullaniciPaneliPasifBlogGuncelleme/@item.BlogID">Düzenle</a></td>
+                <td><a class="aktif-button px-3 py-2 deleteButton" href="/Blog/KullaniciPaneliBlogAktiflestirme/@item.BlogID">Aktifleştir</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
